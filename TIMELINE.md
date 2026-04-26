@@ -22,7 +22,7 @@ Initial disclosure to Gardyn Inc. via support@mygardyn.com.
 CISA published Advisory ICSA-26-055-03 covering four CVEs.
 
 ### 2026-02-27
-SecurityWeek published reporting on CISA Advisory ICSA-26-055-03.
+SecurityWeek published reporting on CISA Advisory ICSA-26-055-03: ["Critical Flaws Exposed Gardyn Smart Gardens to Remote Hacking"](https://www.securityweek.com/critical-flaws-exposed-gardyn-smart-gardens-to-remote-hacking/).
 
 ### 2026-04-02 / 2026-04-04
 CISA published Update A expanding the advisory to ten total CVEs.
@@ -34,7 +34,7 @@ Vendor's public security page at <https://mygardyn.com/security/> updated. The u
 Filed consumer data access request with Gardyn Inc. Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency.
 
 ### 2026-04-09
-SecurityWeek published reporting on CISA Update A.
+SecurityWeek updated its 2026-02-27 article to reflect CISA Update A, adding a note that the researcher also identified exposure of partial payment card information: ["Critical Flaws Exposed Gardyn Smart Gardens to Remote Hacking"](https://www.securityweek.com/critical-flaws-exposed-gardyn-smart-gardens-to-remote-hacking/).
 
 ### 2026-04-13
 Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter.
