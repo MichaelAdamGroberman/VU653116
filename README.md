@@ -48,6 +48,8 @@ See the **CVE Mapping** table above for the complete list of published CVEs.
 
 This timeline includes only (a) events published by CISA in ICSA-26-055-03, (b) the researcher's own disclosure actions, (c) observable changes in vendor API behavior or credentials, and (d) firmware compile/deployment dates derived from public version strings. Content from the CERT/CC VINCE coordination platform is embargoed and not included in this repository.
 
+The researcher is a New Jersey resident and a Gardyn customer who purchased the affected device. Security-disclosure events below are taken in **researcher capacity**; data-rights and regulatory filings are taken in **consumer capacity** under the New Jersey Data Privacy Act and related consumer-protection regimes. See [`TIMELINE.md`](TIMELINE.md) for the standing/capacity note.
+
 | Date | Event | Type |
 |------|-------|------|
 | 2025-10-14 | Initial disclosure to vendor (researcher action) | Researcher action |
@@ -59,10 +61,10 @@ This timeline includes only (a) events published by CISA in ICSA-26-055-03, (b) 
 | 2026-02-24 | **ICSA-26-055-03 published (initial — 4 CVEs)** | CISA |
 | 2026-02-24 | Vendor announces firmware master.619 deployment | Vendor public statement |
 | 2026-04-02 | **ICSA-26-055-03 Update A published (10 CVEs total; CVE-2025-29631 remediated in firmware master.622)** | CISA |
-| 2026-04-09 | Filed consumer data access request with Gardyn Inc.; Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency | Researcher action / vendor acknowledgment |
+| 2026-04-09 | Filed consumer data access request with Gardyn Inc.; Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency | Consumer action / vendor acknowledgment |
 | 2026-04-13 | Received correspondence from outside counsel representing Gardyn Inc. in connection with this matter | Observable communication |
-| 2026-04-25 | Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referencing the April 9, 2026 acknowledgment and the approximate May 24, 2026 statutory response deadline | Researcher action |
-| 2026-04-25 | Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General | Researcher action |
+| 2026-04-25 | Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referencing the April 9, 2026 acknowledgment and the approximate May 24, 2026 statutory response deadline | Consumer action |
+| 2026-04-25 | Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General | Consumer action |
 
 See [`TIMELINE.md`](TIMELINE.md) for the canonical narrative version of this timeline.
 
