@@ -62,7 +62,7 @@ The researcher is a New Jersey resident and a Gardyn customer who purchased the 
 | 2026-02-24 | Vendor announces firmware master.619 deployment | Vendor public statement |
 | 2026-02-27 | SecurityWeek: ["Critical Flaws Exposed Gardyn Smart Gardens to Remote Hacking"](https://www.securityweek.com/critical-flaws-exposed-gardyn-smart-gardens-to-remote-hacking/) | Press coverage |
 | 2026-04-02 | **ICSA-26-055-03 Update A published (10 CVEs total; CVE-2025-29631 remediated in firmware master.622)** | CISA |
-| 2026-04-07 | Vendor's public security page at https://mygardyn.com/security/ updated (timing relative to Update A is publicly observable via the Wayback Machine) | Vendor public statement |
+| 2026-04-07 | Vendor's public security page at https://mygardyn.com/security/ updated | Vendor public statement |
 | 2026-04-09 | Filed consumer data access request with Gardyn Inc.; Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency | Consumer action / vendor acknowledgment |
 | 2026-04-09 | SecurityWeek updated its 2026-02-27 article to reflect CISA Update A and the partial-payment-card detail: ["Critical Flaws Exposed Gardyn Smart Gardens to Remote Hacking"](https://www.securityweek.com/critical-flaws-exposed-gardyn-smart-gardens-to-remote-hacking/) | Press coverage |
 | 2026-04-13 | Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter | Observable communication |

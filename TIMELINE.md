@@ -28,7 +28,7 @@ SecurityWeek published reporting on CISA Advisory ICSA-26-055-03: ["Critical Fla
 CISA published Update A expanding the advisory to ten total CVEs.
 
 ### 2026-04-07
-Vendor's public security page at <https://mygardyn.com/security/> updated. The update timing relative to CISA Update A (April 2 / April 4) is publicly observable via the Wayback Machine.
+Vendor's public security page at <https://mygardyn.com/security/> updated.
 
 ### 2026-04-09
 Filed consumer data access request with Gardyn Inc. Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency.
