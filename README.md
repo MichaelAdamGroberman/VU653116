@@ -61,10 +61,17 @@ The researcher is a New Jersey resident and a Gardyn customer who purchased the 
 | 2026-02-24 | **ICSA-26-055-03 published (initial — 4 CVEs)** | CISA |
 | 2026-02-24 | Vendor announces firmware master.619 deployment | Vendor public statement |
 | 2026-04-02 | **ICSA-26-055-03 Update A published (10 CVEs total; CVE-2025-29631 remediated in firmware master.622)** | CISA |
+| 2026-04-07 | Vendor's public security page at https://mygardyn.com/security/ updated (timing relative to Update A is publicly observable via the Wayback Machine) | Vendor public statement |
 | 2026-04-09 | Filed consumer data access request with Gardyn Inc.; Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency | Consumer action / vendor acknowledgment |
 | 2026-04-13 | Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter | Observable communication |
 | 2026-04-25 | Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referencing the April 9, 2026 acknowledgment and the approximate May 24, 2026 statutory response deadline | Consumer action |
 | 2026-04-25 | Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General | Consumer action |
+| 2026-04-25 | Reviewed publicly available state AG breach notification databases for CA, ME, MD, TX, VT, and NJ; no breach notification by Gardyn Inc. found in any reviewed database as of this date | Researcher action / verifiable absence |
+
+### Federal record observations (per ICSA-26-055-03 Update A)
+
+- CISA's published advisory states that the vendor reported to CISA that no access logging existed on the affected endpoints during the exposure window.
+- CVE-2026-28766 (CVSS 9.3) documents an unauthenticated endpoint that returned approximately 134,215 user records including names, email addresses, phone numbers, and last four digits of payment cards.
 
 See [`TIMELINE.md`](TIMELINE.md) for the canonical narrative version of this timeline.
 

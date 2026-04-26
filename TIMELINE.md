@@ -21,11 +21,20 @@ Initial disclosure to Gardyn Inc. via support@mygardyn.com.
 ### 2026-02-24
 CISA published Advisory ICSA-26-055-03 covering four CVEs.
 
+### 2026-02-27
+SecurityWeek published reporting on CISA Advisory ICSA-26-055-03.
+
 ### 2026-04-02 / 2026-04-04
 CISA published Update A expanding the advisory to ten total CVEs.
 
+### 2026-04-07
+Vendor's public security page at <https://mygardyn.com/security/> updated. The update timing relative to CISA Update A (April 2 / April 4) is publicly observable via the Wayback Machine.
+
 ### 2026-04-09
 Filed consumer data access request with Gardyn Inc. Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency.
+
+### 2026-04-09
+SecurityWeek published reporting on CISA Update A.
 
 ### 2026-04-13
 Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter.
@@ -35,3 +44,14 @@ Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referen
 
 ### 2026-04-25
 Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General.
+
+### 2026-04-25
+Reviewed publicly available state attorney general breach notification databases for California, Maine, Maryland, Texas, Vermont, and New Jersey. No breach notification by Gardyn Inc. found in any reviewed database as of this date.
+
+## Federal Record Observations
+
+### Per ICSA-26-055-03 Update A — vendor admission on access logging
+CISA's published advisory states that the vendor reported to CISA that no access logging existed on the affected endpoints during the exposure window.
+
+### Affected scope per ICSA-26-055-03 Update A — CVE-2026-28766
+CVE-2026-28766 (CVSS 9.3) documents an unauthenticated endpoint that returned approximately 134,215 user records including names, email addresses, phone numbers, and last four digits of payment cards.
