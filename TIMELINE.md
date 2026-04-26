@@ -28,7 +28,7 @@ CISA published Update A expanding the advisory to ten total CVEs.
 Filed consumer data access request with Gardyn Inc. Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency.
 
 ### 2026-04-13
-Received correspondence from outside counsel representing Gardyn Inc. in connection with this matter.
+Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter.
 
 ### 2026-04-25
 Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referencing the April 9, 2026 acknowledgment and the approximate May 24, 2026 statutory response deadline.

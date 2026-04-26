@@ -62,7 +62,7 @@ The researcher is a New Jersey resident and a Gardyn customer who purchased the 
 | 2026-02-24 | Vendor announces firmware master.619 deployment | Vendor public statement |
 | 2026-04-02 | **ICSA-26-055-03 Update A published (10 CVEs total; CVE-2025-29631 remediated in firmware master.622)** | CISA |
 | 2026-04-09 | Filed consumer data access request with Gardyn Inc.; Gardyn Privacy Team acknowledged receipt the same day and confirmed processing under the New Jersey Data Privacy Act based on residency | Consumer action / vendor acknowledgment |
-| 2026-04-13 | Received correspondence from outside counsel representing Gardyn Inc. in connection with this matter | Observable communication |
+| 2026-04-13 | Received correspondence from outside counsel at Clark Hill LLP representing Gardyn Inc. in connection with this matter | Observable communication |
 | 2026-04-25 | Filed supplement to NJDPA right-to-know request with Gardyn Privacy Team referencing the April 9, 2026 acknowledgment and the approximate May 24, 2026 statutory response deadline | Consumer action |
 | 2026-04-25 | Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General | Consumer action |
 
