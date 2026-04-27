@@ -6,15 +6,17 @@ This timeline tracks publicly-known events related to CISA Advisory ICSA-26-055-
 
 The researcher is a New Jersey resident and a Gardyn customer who purchased the affected device. Events on this timeline are taken in two distinct capacities:
 
-- **Researcher capacity** — security disclosure activity (vendor notification, CERT/CC coordination, CISA advisory publication). Standing arises from lawful research on a device owned by the researcher.
+- **Researcher capacity** — security disclosure activity (vendor notification, CERT/CC VINCE coordination, CISA advisory publication). Standing arises from lawful research on a device owned by the researcher.
 - **Consumer capacity** — data-rights and regulatory filings (NJDPA right-to-know request, NJ Division of Consumer Affairs complaint). Standing arises from being a Gardyn customer and a New Jersey resident, which is the basis Gardyn's Privacy Team cited when acknowledging the April 9, 2026 request under the New Jersey Data Privacy Act.
 
 These tracks proceed in parallel and on separate legal bases.
 
+The vendor disclosure and CERT/CC / CISA disclosure activity is **dual-capacity** (researcher *and* consumer): the researcher's own account record was visible in the unauthenticated `/api/users` response (CVE-2026-28766), so the report to CISA is the conduct of an affected Gardyn customer who also happens to be a researcher, not third-party-researcher conduct on behalf of unrelated data subjects. The dual-capacity framing applies to the 2025-10-14 vendor disclosure and the 2025-12-11 CERT/CC disclosure entries below.
+
 ## 2025
 
 ### 2025-10-14
-Initial disclosure to Gardyn Inc. via support@mygardyn.com.
+Initial disclosure to Gardyn Inc. via `support@mygardyn.com`. The disclosure included the mass PII exposure on the unauthenticated `/api/users` endpoint (later assigned CVE-2026-28766) and OS command-injection RCE demonstrated on a Gardyn device the researcher owned. The PII finding was reported by the researcher in his capacity as an affected Gardyn customer whose own account record was visible in the unauthenticated response, in addition to his capacity as the discovering researcher.
 
 ## 2026
 

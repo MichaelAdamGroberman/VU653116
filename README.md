@@ -48,12 +48,12 @@ See the **CVE Mapping** table above for the complete list of published CVEs.
 
 This timeline includes only (a) events published by CISA in ICSA-26-055-03, (b) the researcher's own disclosure actions, (c) observable changes in vendor API behavior or credentials, and (d) firmware compile/deployment dates derived from public version strings. Content from the CERT/CC VINCE coordination platform is embargoed and not included in this repository.
 
-The researcher is a New Jersey resident and a Gardyn customer who purchased the affected device. Security-disclosure events below are taken in **researcher capacity**; data-rights and regulatory filings are taken in **consumer capacity** under the New Jersey Data Privacy Act and related consumer-protection regimes. See [`TIMELINE.md`](TIMELINE.md) for the standing/capacity note.
+The researcher is a New Jersey resident and a Gardyn customer who purchased the affected device. Most security-disclosure events below are taken in **researcher capacity**; data-rights and regulatory filings are taken in **consumer capacity** under the New Jersey Data Privacy Act and related consumer-protection regimes. The vendor disclosure and CERT/CC / CISA disclosure activity is **dual-capacity** (researcher *and* consumer) because the researcher's own account record was visible in the unauthenticated `/api/users` response (CVE-2026-28766) — the report to CISA is the conduct of an affected Gardyn customer who also happens to be a researcher, not third-party-researcher conduct on behalf of unrelated data subjects. See [`TIMELINE.md`](TIMELINE.md) for the standing/capacity note.
 
 | Date | Event | Type |
 |------|-------|------|
-| 2025-10-14 | Initial disclosure to vendor (researcher action) | Researcher action |
-| 2025-12-11 | Disclosure to CERT/CC (58 days after the initial vendor disclosure) | Researcher action / observable communication gap |
+| 2025-10-14 | Initial disclosure to vendor — included the mass PII exposure on `/api/users` (researcher's own account record visible in the unauthenticated response — direct standing as an affected data subject) and OS command-injection RCE on a Gardyn device the researcher owned | Researcher + consumer action (dual-capacity) |
+| 2025-12-11 | Disclosure to CERT/CC / CISA (58 days after the initial vendor disclosure that already included the PII finding) | Researcher + consumer action (dual-capacity) / observable communication gap |
 | 2025-12-18 | `/api/users` endpoint stopped returning data to unauthenticated requests | Observable vendor action |
 | 2026-01-19 | Firmware master.583 deployed (build date encoded in version string `master.583.20260119`) | Firmware deployment |
 | 2026-01-22 | `iothubowner` Azure IoT Hub administrative credential rotated (the previously distributed key stopped working) | Observable vendor action |
