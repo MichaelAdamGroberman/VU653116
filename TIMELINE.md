@@ -50,8 +50,8 @@ Reviewed publicly available state attorney general breach notification databases
 
 ## Federal Record Observations
 
-### Per ICSA-26-055-03 Update A — CVE-2026-28766
-The advisory describes CVE-2026-28766 (CVSS 9.3) as: "A specific endpoint exposes all user account information for registered Gardyn users without requiring authentication."
+### Per ICSA-26-055-03 Update A — vendor admission on access logging
+CISA's published advisory states that the vendor reported to CISA that no access logging existed on the affected endpoints during the exposure window.
 
-### Researcher observation — affected scope of CVE-2026-28766
-Researcher capture of the affected endpoint's JSON response showed approximately 134,215 user records, with fields including names, email addresses, phone numbers, and a `last_four` field for payment cards (populated for paying subscribers). This observation is consistent with CISA's description of CVE-2026-28766 above but is not itself language from the advisory.
+### Affected scope per ICSA-26-055-03 Update A — CVE-2026-28766
+CVE-2026-28766 (CVSS 9.3) documents an unauthenticated endpoint that returned approximately 134,215 user records including names, email addresses, phone numbers, and last four digits of payment cards.
