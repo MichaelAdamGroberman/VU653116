@@ -19,18 +19,18 @@
 
 10 CVEs have been assigned. ICSA-26-055-03 (initial, 2026-02-24) covered 4 CVEs; Update A (2026-04-02) added 6 more for a total of 10.
 
-| CVE | CVSS | CWE | Gr0m Finding | Title | Advisory |
-|-----|------|-----|-------------|-------|----------|
-| [CVE-2026-28766](https://www.cve.org/CVERecord?id=CVE-2026-28766) | 9.3 | CWE-306 | Gr0m-006 | Missing Authentication on User Account Endpoint | Update A |
-| [CVE-2025-1242](https://www.cve.org/CVERecord?id=CVE-2025-1242) | 9.1 | CWE-798 | Gr0m-003 | Hardcoded IoT Hub Administrative Credential | Initial |
-| [CVE-2025-29631](https://www.cve.org/CVERecord?id=CVE-2025-29631) | 9.1 | CWE-78 | Gr0m-032 | OS Command Injection — Remote Code Execution | Initial |
-| [CVE-2026-25197](https://www.cve.org/CVERecord?id=CVE-2026-25197) | 9.1 | CWE-639 | Gr0m-007, Gr0m-023 | Authorization Bypass via User-Controlled Key (IDOR) | Update A |
-| [CVE-2025-10681](https://www.cve.org/CVERecord?id=CVE-2025-10681) | 8.6 | CWE-798 | Gr0m-004 | Hardcoded Cloud Storage Account Key | Update A |
-| [CVE-2025-29628](https://www.cve.org/CVERecord?id=CVE-2025-29628) | 8.3 | CWE-319 | — | Cleartext Transmission of Sensitive Information | Initial |
-| [CVE-2025-29629](https://www.cve.org/CVERecord?id=CVE-2025-29629) | 8.3 | CWE-1392 | — | Use of Default Credentials | Initial |
-| [CVE-2026-32646](https://www.cve.org/CVERecord?id=CVE-2026-32646) | 7.5 | CWE-306 | Gr0m-008 | Missing Authentication on Admin Device Management | Update A |
-| [CVE-2026-28767](https://www.cve.org/CVERecord?id=CVE-2026-28767) | 5.3 | CWE-306 | Gr0m-009 | Missing Authentication on Admin Notifications | Update A |
-| [CVE-2026-32662](https://www.cve.org/CVERecord?id=CVE-2026-32662) | 5.3 | CWE-489 | Gr0m-019 | Active Debug Code in Production | Update A |
+| CVE | CVSS | CWE | Gr0m Finding | Title | Advisory | Detail Repo |
+|-----|------|-----|-------------|-------|----------|-------------|
+| [CVE-2026-28766](https://www.cve.org/CVERecord?id=CVE-2026-28766) | 9.3 | CWE-306 | Gr0m-006 | Missing Authentication on User Account Endpoint | Update A | [MichaelAdamGroberman/CVE-2026-28766](https://github.com/MichaelAdamGroberman/CVE-2026-28766) |
+| [CVE-2025-1242](https://www.cve.org/CVERecord?id=CVE-2025-1242) | 9.1 | CWE-798 | Gr0m-003 | Hardcoded IoT Hub Administrative Credential | Initial | [MichaelAdamGroberman/CVE-2025-1242](https://github.com/MichaelAdamGroberman/CVE-2025-1242) |
+| [CVE-2025-29631](https://www.cve.org/CVERecord?id=CVE-2025-29631) | 9.1 | CWE-78 | Gr0m-032 | OS Command Injection — Remote Code Execution | Initial | — |
+| [CVE-2026-25197](https://www.cve.org/CVERecord?id=CVE-2026-25197) | 9.1 | CWE-639 | Gr0m-007, Gr0m-023 | Authorization Bypass via User-Controlled Key (IDOR) | Update A | [MichaelAdamGroberman/CVE-2026-25197](https://github.com/MichaelAdamGroberman/CVE-2026-25197) |
+| [CVE-2025-10681](https://www.cve.org/CVERecord?id=CVE-2025-10681) | 8.6 | CWE-798 | Gr0m-004 | Hardcoded Cloud Storage Account Key | Update A | [MichaelAdamGroberman/CVE-2025-10681](https://github.com/MichaelAdamGroberman/CVE-2025-10681) |
+| [CVE-2025-29628](https://www.cve.org/CVERecord?id=CVE-2025-29628) | 8.3 | CWE-319 | — | Cleartext Transmission of Sensitive Information | Initial | — |
+| [CVE-2025-29629](https://www.cve.org/CVERecord?id=CVE-2025-29629) | 8.3 | CWE-1392 | — | Use of Default Credentials | Initial | — |
+| [CVE-2026-32646](https://www.cve.org/CVERecord?id=CVE-2026-32646) | 7.5 | CWE-306 | Gr0m-008 | Missing Authentication on Admin Device Management | Update A | [MichaelAdamGroberman/CVE-2026-32646](https://github.com/MichaelAdamGroberman/CVE-2026-32646) |
+| [CVE-2026-28767](https://www.cve.org/CVERecord?id=CVE-2026-28767) | 5.3 | CWE-306 | Gr0m-009 | Missing Authentication on Admin Notifications | Update A | [MichaelAdamGroberman/CVE-2026-28767](https://github.com/MichaelAdamGroberman/CVE-2026-28767) |
+| [CVE-2026-32662](https://www.cve.org/CVERecord?id=CVE-2026-32662) | 5.3 | CWE-489 | Gr0m-019 | Active Debug Code in Production | Update A | [MichaelAdamGroberman/CVE-2026-32662](https://github.com/MichaelAdamGroberman/CVE-2026-32662) |
 
 CVE-2025-29628, CVE-2025-29629, and CVE-2025-29631 were originally discovered by [mselbrede](https://github.com/mselbrede/gardyn) in February 2025 and independently confirmed by this research. A mirror is also available at [kristof-mattei/gardyn-hack](https://github.com/kristof-mattei/gardyn-hack).
 
