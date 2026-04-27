@@ -20,6 +20,12 @@ Initial disclosure to Gardyn Inc. via `support@mygardyn.com`. The disclosure inc
 
 ## 2026
 
+### 2026-01-19
+Filed Personal Information Access Request (PIAR) with Gardyn Inc. (consumer-capacity action). Submitted as a Gardyn customer requesting disclosure of personal data held by Gardyn under the operative privacy policy then in effect.
+
+### 2026-01-27
+Gardyn customer support responded to the 2026-01-19 PIAR with written representations including: *"we do not maintain or generate user-facing logs that track individual access events"*; that personal information is not shared with parties outside of Gardyn; that telemetry data is used solely for device functionality and diagnostics; that the customer's Wi-Fi password is not viewable by Gardyn staff; and that Gardyn does not have access to the customer's full credit card information. The "no user-facing access logs" representation is the source for the access-logging gap referenced in the CVE-2026-28766 evidence record. Several of these representations are independently in tension with the published privacy policy and/or with the CISA advisory's documented exposure of partial payment card data (`last_four`) in the unauthenticated `/api/users` response. The personal name of the responding customer support agent is redacted from this public artifact. Consumer-capacity action.
+
 ### 2026-02-24
 CISA published Advisory ICSA-26-055-03 covering four CVEs.
 
