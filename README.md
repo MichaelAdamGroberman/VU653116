@@ -70,11 +70,10 @@ The researcher is a New Jersey resident and a Gardyn customer who purchased the 
 | 2026-04-25 | Filed supplement to consumer complaint referred to NJ Division of Consumer Affairs from the New York Office of the Attorney General | Consumer action |
 | 2026-04-25 | Reviewed publicly available state AG breach notification databases for CA, ME, MD, TX, VT, and NJ; no breach notification by Gardyn Inc. found in any reviewed database as of this date | Researcher action / verifiable absence |
 
-### Advisory excerpt and researcher observations
+### Federal record observations
 
 - Per ICSA-26-055-03 Update A, the advisory describes CVE-2026-28766 (CVSS 9.3) as: "A specific endpoint exposes all user account information for registered Gardyn users without requiring authentication."
 - Researcher observation (not advisory language): capture of the affected endpoint's JSON response showed approximately 134,215 user records, with fields including names, email addresses, phone numbers, and a `last_four` field for payment cards (populated for paying subscribers). Consistent with CISA's description above.
-- Researcher observation — access logging gap (not advisory language): during coordinated disclosure correspondence the researcher reported to coordinating parties that the affected HTTP cloud backend lacked authentication-level access logging, and this assertion was not refuted by the vendor in subsequent coordinated correspondence. Separately, Gardyn customer support, in response to a researcher inquiry, stated that no access logs were available.
 
 See [`TIMELINE.md`](TIMELINE.md) for the canonical narrative version of this timeline.
 
